@@ -1,0 +1,20 @@
+/* O que e uma regra CSS? */
+
+#body {
+  /* Se refere ao elemento id="body" */
+  color: aquamarine;
+}
+
+body {
+  color: bisque;
+}
+/* Regra de cascata considera sempre o ultimo elemento, ou seja, o "body"*/
+
+/*Propriedade BACKGROUND*/
+
+body {
+  margin: ;
+  height: 100vh; /*Viewport height*/
+  background: linear-gradient(0deg, #29b6d1, #00c7c7 100%) non-repeat;
+  /*funcao: LINEAR-GRADIENT com tres argumentos*/
+}

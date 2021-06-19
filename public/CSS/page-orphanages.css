@@ -1,0 +1,27 @@
+#page-orphanages {
+    width: 100%;/*Largura*/
+    height: 100%;/*Altura*/
+
+    display: flex;/*Display flexivel*/
+}
+
+aside {/*Blue site sidebar*/
+    width: clamp(34rem, 25vw, 44rem);/*Largura equivalente a 300px*/
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+    padding: 8rem;/*80px*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;/*Espaço entre dois elementos (End. e Text.)*/
+}
+
+aside h2{
+    margin-top: 6.4rem;
+
+    font: 800 3.6rem/1.1 'Nunito', sans-serif;
+}
+
+aside p {
+    margin: 2.4rem;
+    font: 400 1.6rem/1.1 'Nunito', sans-serif;
+}
